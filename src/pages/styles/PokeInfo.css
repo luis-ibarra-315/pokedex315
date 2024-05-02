@@ -1,0 +1,10 @@
+.stats_bar{
+    background-color: white;
+    height: 30px;
+    width: 100%;
+}
+.stats_prog{
+   background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+    
+    height: 100%;
+}

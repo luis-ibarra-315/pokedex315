@@ -1,0 +1,19 @@
+
+.pokedex__title span{
+    color: red;
+} 
+
+.pokedex {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.pokedex_container{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
