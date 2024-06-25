@@ -60,6 +60,9 @@ const PokeInfo = () => {
       alignItems:"center"
     }}>
 
+<div className='linea_roja'></div>
+      <div className='linea_negra'></div>
+
       <div style={{
         width:"50%",
         marginTop:"100px",

@@ -46,7 +46,13 @@ const Pokedex = () => {
   }
 
   return (
+    <>
     <section className='pokedex'>
+      
+      <div className='linea_roja'></div>
+      <div className='linea_negra'></div>
+     
+      
       <h2 className='pokedex__title'><span>Bienvenido {trainer},</span> Aqui podras encontrar tu pokemon favorito</h2>
       <div>
         <form onSubmit= {handleSubmit}>
@@ -76,6 +82,7 @@ const Pokedex = () => {
       total={total}
       />
     </section>
+    </>
   )
 }
 

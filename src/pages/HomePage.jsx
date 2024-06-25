@@ -21,6 +21,7 @@ const HomePage = () => {
   }
 
   return (
+    <>
     <div className='poke-container'>
       <img src={pokeLogo} alt="poke" width={400}/>
       <h1>¡Hola entrenador!</h1>
@@ -30,6 +31,7 @@ const HomePage = () => {
         <button className='poke-button'>Comenzar</button>
       </form>
     </div>
+  </>
   )
 }
 

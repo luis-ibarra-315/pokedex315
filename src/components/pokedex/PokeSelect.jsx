@@ -24,6 +24,7 @@ const PokeSelect = ({setSelectValue}) => {
           <option key={type.url} value={type.url}>{type.name}</option>
         ))
       }
+      
     </select>
   )
 }
